@@ -24,21 +24,21 @@ This file can be found in "src/main/resources" and it's used to seed the databas
                                                   POSTMAN
 After running the program , initialize postman and send the following requests
 
-                        # GET ALL CLIENTS PAGED
+  # GET ALL CLIENTS PAGED
   *GET                                
-  RequestURL -http://localhost:8080/clients?page=1&linesPerPage=6&direction=ASC&orderBy=name
+  RequestURL -  http://localhost:8080/clients?page=1&linesPerPage=6&direction=ASC&orderBy=name 
   
-                          # GET CLIENT BY ID
+ # GET CLIENT BY ID
   *GET   
-  RequestURL -http://localhost:8080/clients/10
+  RequestURL -  http://localhost:8080/clients/10
   
-                          - DELETE CLIENT
+  # DELETE CLIENT
   *DEL   
-  RequestURL -http://localhost:8080/clients/10
+  RequestURL -  http://localhost:8080/clients/10
   
-                          - INSERT CLIENT
+# INSERT CLIENT
   *POST  
-  RequestURL -http://localhost:8080/clients
+  RequestURL -  http://localhost:8080/clients
   Body -Raw-Json 
                   {
                   "name": "Sirius Black",
@@ -48,9 +48,9 @@ After running the program , initialize postman and send the following requests
                   "children": 0
                   }
   
-                          - UPDATE CLIENT
+# UPDATE CLIENT
   *POST  
-  RequestURL -http://localhost:8080/clients/10
+  RequestURL -  http://localhost:8080/clients/10
     Body -Raw-Json 
                   {
                   "name": "James Pottr",
