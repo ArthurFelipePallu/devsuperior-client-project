@@ -3,12 +3,12 @@ CRUD project of client , proposed by devsuperior backend course as training
 
 
 This project details a Client class that boasts the following attributes
-#  Long Id
-#  String Name
-#  String Cpf 
-#  Double Income
-#  Instant birthDate
-#  Integer Children
+*  Long Id
+*  String Name
+*  String Cpf 
+*  Double Income
+*  Instant birthDate
+*  Integer Children
 
 
                                                   H2 DATABASE
