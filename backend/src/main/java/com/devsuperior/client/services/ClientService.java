@@ -8,6 +8,8 @@ import javax.persistence.EntityNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,6 +30,13 @@ public class ClientService {
 		List<Client> list = repository.findAll();
 		return list.stream().map(x->new ClientDTO(x)).collect(Collectors.toList());		
 	}
+	
+	@Transactional(readOnly = true)        /*  NOVO       */
+	public Page<ClientDTO> findAllPaged(PageRequest request){
+		Page<Client> list = repository.findAll(request); 
+		return list.map(x->new ClientDTO(x));
+	}	
+	
 	
 	@Transactional(readOnly=true)
 	public ClientDTO findById(Long id){

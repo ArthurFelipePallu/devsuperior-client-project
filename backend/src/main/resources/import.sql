@@ -1,2 +1,12 @@
 INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Arthur Pallu','111.111.111-11',4500.68,TIMESTAMP WITH TIME ZONE '1996-03-07T20:50:07.12345Z',2);
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Naiane Kulik','222.222.222-22',35000.68,TIMESTAMP WITH TIME ZONE '1997-12-28T20:50:07.12345Z',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Naiane Kulik','222.222.222-22',35000.8,TIMESTAMP WITH TIME ZONE '1997-12-28T20:50:07.12345Z',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Lith Verhen','333.333.333-33',5690.68,TIMESTAMP WITH TIME ZONE '1977-07-09T20:50:07.12345Z',0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ainz Oal Gown','444.444.444-44',30.99,TIMESTAMP WITH TIME ZONE '1985-10-18T20:50:07.12345Z',6);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Naruto Uzumaki','555.555.555-55',47.25,TIMESTAMP WITH TIME ZONE '2000-02-20T20:50:07.12345Z',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ichigo Kurosaki','666.666.666-66',179.41,TIMESTAMP WITH TIME ZONE '2007-09-26T20:50:07.12345Z',1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Orion Ernas','777.777.777-77',6412.82,TIMESTAMP WITH TIME ZONE '1982-08-22T20:50:07.12345Z',4);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Krishna Manohar','888.888.888-88',397.55,TIMESTAMP WITH TIME ZONE '1993-06-01T20:50:07.12345Z',0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ilyum Balkor','999.999.999-99',99.99,TIMESTAMP WITH TIME ZONE '1992-11-05T20:50:07.12345Z',3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Elphin Menadion','101.010.101-01',549.99,TIMESTAMP WITH TIME ZONE '1994-01-01T20:50:07.12345Z',0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ripha Menadion','121.212.121.21',8025.33,TIMESTAMP WITH TIME ZONE '1976-03-25T20:50:07.12345Z',1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Yurial Deirus','636.363.636-36',2022.37,TIMESTAMP WITH TIME ZONE '1997-12-28T20:50:07.12345Z',1);
